@@ -47,7 +47,6 @@ To run the project, open the `MLP_from_Scratch.ipynb` notebook in Jupyter Notebo
 1. Clone the repository:
    
    ```sh
-   Copy code
    git clone https://github.com/yourusername/mlp-from-scratch.git
    cd mlp-from-scratch
    ```
@@ -55,7 +54,6 @@ To run the project, open the `MLP_from_Scratch.ipynb` notebook in Jupyter Notebo
 2. Install the necessary Python packages:
 
    ```sh
-   Copy code
    pip install -r requirements.txt
    ```
 
