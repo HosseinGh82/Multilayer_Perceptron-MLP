@@ -13,36 +13,6 @@ The project is divided into several stages:
 5. **Evaluating the Model**: Visualizing the loss over epochs and testing the MLP on a synthetic dataset.
 
 
-
-## ⚙️ Installation
-
-1. Clone the repository:
-   
-   ```sh
-   bash
-   Copy code
-   git clone https://github.com/yourusername/mlp-from-scratch.git
-   cd mlp-from-scratch
-   ```
-   
-2. Install the necessary Python packages:
-
-  ```sh
-  Copy code
-  pip install -r requirements.txt
-  ```
-
-3. Ensure you have Graphviz installed:
-
-  - On Ubuntu: sudo apt-get install graphviz
-  - On MacOS: brew install graphviz
-  - On Windows: Download and install from the official Graphviz site.
-
-    
-## 🚀 Usage
-To run the project, open the `MLP_from_Scratch.ipynb` notebook in Jupyter Notebook or JupyterLab, and execute the cells sequentially.
-
-
 ## 🛠️ Implementation Details
 1. **Defining Tensors**
 The `Tensor` class is the foundational data structure in this project. Each tensor holds a value, a gradient, and the connections (children) in the computational graph. Various operations such as addition, subtraction, multiplication, division, and power are implemented, each with their respective backward functions for gradient computation.
@@ -66,3 +36,31 @@ The model's performance is visualized by plotting the loss over epochs, which he
 
 ## 🧪 Testing with a Synthetic Dataset
 The MLP model is tested on a synthetic dataset generated using make_blobs from sklearn.datasets. The dataset consists of 1000 samples with 3 centers (classes) and 2 features. The model is trained for 100 epochs, and the loss is plotted to visualize its progression over time.
+
+
+## 🚀 Usage
+To run the project, open the `MLP_from_Scratch.ipynb` notebook in Jupyter Notebook or JupyterLab, and execute the cells sequentially.
+
+
+## ⚙️ Installation
+
+1. Clone the repository:
+   
+   ```sh
+   Copy code
+   git clone https://github.com/yourusername/mlp-from-scratch.git
+   cd mlp-from-scratch
+   ```
+   
+2. Install the necessary Python packages:
+
+   ```sh
+   Copy code
+   pip install -r requirements.txt
+   ```
+
+3. Ensure you have Graphviz installed:
+
+  - On Ubuntu: sudo apt-get install graphviz
+  - On MacOS: brew install graphviz
+  - On Windows: Download and install from the official Graphviz site.
