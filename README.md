@@ -17,10 +17,13 @@ The project is divided into several stages:
 1. **Defining Tensors**
 The `Tensor` class is the foundational data structure in this project. Each tensor holds a value, a gradient, and the connections (children) in the computational graph. Various operations such as addition, subtraction, multiplication, division, and power are implemented, each with their respective backward functions for gradient computation.
 
-2. **Operations on Tensors**
+![Capture4](https://github.com/user-attachments/assets/9b5a246d-58f0-475a-9e7b-49c53a6b102b)
+
+
+3. **Operations on Tensors**
 The project implements basic operations (e.g., addition, multiplication) with automatic differentiation, enabling backpropagation. The `backward` method propagates gradients from the output back through the computational graph.
 
-3. **Building the MLP Architecture**
+4. **Building the MLP Architecture**
 The MLP model is built using three classes:
 
 - **Neuron**: Represents a single neuron with weights and a bias.
@@ -36,6 +39,9 @@ The model's performance is visualized by plotting the loss over epochs, which he
 
 ## 🧪 Testing with a Synthetic Dataset
 The MLP model is tested on a synthetic dataset generated using make_blobs from sklearn.datasets. The dataset consists of 1000 samples with 3 centers (classes) and 2 features. The model is trained for 100 epochs, and the loss is plotted to visualize its progression over time.
+
+![Capture2](https://github.com/user-attachments/assets/376ef0b0-90f9-41de-9ce3-afe6f199efa6)
+![Capture3](https://github.com/user-attachments/assets/0e857175-e3be-478a-b8c2-a368fdf33911)
 
 
 ## 🚀 Usage
